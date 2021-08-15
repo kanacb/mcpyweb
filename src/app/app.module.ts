@@ -4,10 +4,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { ComponentsModule } from './components/components.module';
 import { RegisterModule } from './register/register.module';
+import { ContactusModule } from './contactus/contactus.module';
+import { ScheduleModule } from './schedule/schedule.module';
 
 
 @NgModule({
@@ -20,7 +20,9 @@ import { RegisterModule } from './register/register.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     ComponentsModule,
-    RegisterModule
+    ContactusModule,
+    RegisterModule,
+    ScheduleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
