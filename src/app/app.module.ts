@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ComponentsModule } from './components/components.module';
+import { RegisterModule } from './register/register.module';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ComponentsModule } from './components/components.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ComponentsModule
+    ComponentsModule,
+    RegisterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
